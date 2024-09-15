@@ -1,0 +1,47 @@
+.bgheader {
+    background-color: #003366; /* Dark blue background */
+    padding: 20px; /* Reduced padding */
+    width: 100%;
+}
+
+#heading {
+    border: 2px solid #DA291C; /* TVS red border */
+    background-color: #003366; /* Dark blue background */
+    color: #FFFFFF; /* White text color */
+    padding: 15px; /* Reduced padding */
+    border-radius: 10px; /* Slightly smaller border radius */
+    position: relative;
+    display: flex; /* Flexbox layout for alignment */
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space out children */
+    width: 100%; /* Full width to ensure proper centering */
+    max-width: 1200px; /* Optional: Max width for large screens */
+    margin: 0 auto; /* Center the flex container */
+}
+
+#heading h1 {
+    font-size: 40px; /* Reduced font size */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px; /* Adjusted letter spacing */
+    margin: 0;
+    color: #FFFFFF; /* Solid white color for text */
+    padding: 10px;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+#heading::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 6px; /* Slightly smaller height */
+    background: linear-gradient(to right, #003366, #DA291C, #003366); /* Blue-red gradient */
+    border-radius: 5px;
+}
+
+.imgfloat {
+    margin-left: auto; /* Push the logo to the right */
+}

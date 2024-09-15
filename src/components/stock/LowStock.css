@@ -1,0 +1,61 @@
+/* Container for the bar graph */
+.low-stock-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  /* Bar graph container */
+  .bar-graph {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Each bar container */
+  .bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+  }
+  
+  /* Vehicle name under each bar */
+  .vehicle-name {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Bar representing stock */
+  .bar {
+    width: 50px;
+    background-color: #ff5722;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 5px;
+    transition: height 0.5s ease-in-out;
+  }
+  
+  /* Stock label inside the bar */
+  .stock-label {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Hover effect to enlarge the bar */
+  .bar:hover {
+    background-color: #e64a19;
+    opacity: 0.8;
+  }
+  

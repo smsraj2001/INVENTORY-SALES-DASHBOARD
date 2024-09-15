@@ -1,0 +1,53 @@
+/* CSS for card background */
+.card-custom-background {
+    background-color: #f9f9f9; /* Light background color for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+    overflow: hidden; /* Ensure content doesn't overflow the rounded corners */
+  }
+  
+  /* CSS for table */
+  .table-custom {
+    background-color: #ffffff; /* White background for table */
+    border-collapse: separate; /* Separate borders to enable rounded corners */
+    border-spacing: 0; /* Remove default spacing between cells */
+    border-radius: 10px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensure table cells respect rounded corners */
+    width: 100%;
+  }
+  
+  .table-custom td, .table-custom th {
+    border: 1px solid #ddd; /* Light border for table cells */
+    padding: 8px;
+  }
+  
+  .table-custom tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+  }
+  
+  .table-custom tr:hover {
+    background-color: #ddd; /* Gray background on row hover */
+  }
+  
+  .table-custom td {
+    color: #333; /* Dark text color for better readability */
+  }
+  
+  .table-custom td strong {
+    color: #000; /* Strong text color for labels */
+  }
+  
+  .table-custom td {
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    overflow: hidden; /* Hide overflow text */
+    white-space: nowrap; /* Ensure text stays on one line */
+  }
+  
+  .table-custom .power-field {
+    font-size: 0.9rem; /* Reduce font size for Power field */
+  }
+  
+  /* CSS for vehicle name */
+  .card-title {
+    border-radius: 5px; /* Rounded corners for the vehicle name */
+  }
+  

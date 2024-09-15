@@ -1,0 +1,173 @@
+.container {
+    margin-top: 2rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Spacing between cards */
+    justify-content: space-between; /* Default alignment for cards */
+}
+
+.cards-container.single-row {
+    justify-content: center; /* Center-align cards when there's only 1 row */
+}
+
+.card {
+    border-radius: 8px;
+    width: 100%; /* Full width on small screens */
+    max-width: 30% !important; /* Set width to 30% for 3 cards in a row */
+    flex-grow: 1;
+    margin-bottom: 1rem;
+    color: #ffffff; /* Default text color for all cards */
+    box-sizing: border-box;
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for card border */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
+}
+
+/* Status-based background colors for the entire card */
+.card-approved {
+    background-color: #28a745 !important; /* Bootstrap success color */
+}
+
+.card-rejected {
+    background-color: #dc3545 !important; /* Bootstrap danger color */
+}
+
+.card-pending {
+    background-color: #ffc107 !important; /* Bootstrap warning color */
+    color: #212529 !important; /* Darker text for pending cards */
+}
+
+.card-content {
+    padding: 1rem;
+    background-color: #f0f8ff; /* Light background color for card content */
+    border-radius: 5px;
+    color: #343a40; /* Ensure text color is dark enough for readability */
+}
+
+.card-content h6, .card-content p {
+    margin: 0.5rem 0; /* Adjust margin between text */
+}
+
+.card-content h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #343a40; /* Dark color for titles */
+    text-transform: capitalize;
+    background-color: #e9f7ef; /* Light green background for title */
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.card-content .status-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #17a2b8; /* Info color for status */
+    background-color: #d1ecf1; /* Light blue background for status */
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.card-content .small-font {
+    font-size: 0.95rem;
+    color: #6c757d; /* Muted text for other details */
+    background-color: #f8f9fa; /* Light grey background for small details */
+    padding: 0.4rem;
+    border-radius: 4px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #495057; /* Slightly darker than muted */
+    background-color: #fff3cd; /* Light yellow background for other text */
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.card-content .order-quantity, .card-content .date {
+    font-weight: bold;
+    color: #007bff; /* Highlight order quantity and date */
+    background-color: #e2e3e5; /* Light grey background for quantity and date */
+    padding: 0.4rem;
+    border-radius: 4px;
+}
+
+.card-actions {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card-actions button {
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.2s;
+}
+
+.card-actions button:hover {
+    background-color: #0056b3; /* Darken button color on hover */
+}
+
+.card-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.status-text {
+    font-weight: bold;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important; /* Bootstrap light color */
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.text-success {
+    color: #28a745 !important; /* Bootstrap success color */
+}
+
+.text-danger {
+    color: #dc3545 !important; /* Bootstrap danger color */
+}
+
+.text-warning {
+    color: #ffc107 !important; /* Bootstrap warning color */
+}
+
+.dialog-title {
+    font-weight: bold;
+}
+
+.snackbar-message {
+    width: 100%;
+}
+
+.small-font {
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+/* Make the layout responsive */
+@media (max-width: 992px) {
+    .card {
+        max-width: 48%; /* 2 cards per row for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%; /* Single card per row for small screens */
+    }
+}

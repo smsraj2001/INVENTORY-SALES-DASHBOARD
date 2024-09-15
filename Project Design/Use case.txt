@@ -1,0 +1,216 @@
+Main Page:
+-----------
+    - Header
+    - Navbar
+    - Left Sidebar (Expand and contract)
+    - Main view area
+    - Footer
+
+=============================================================================================================
+
+There are user roles:
+---------------------
+- Admin:
+--------
+    - Can add, update and delete vehicles.
+    - Can increase or decrease stock quantity of the vehicles.
+    - Can post sales.
+    - Can approve/ reject order for vehicle sales details.
+    - Can add, update and remove employee and their details.
+
+- Inventory Manager:
+--------------------
+    - Can Only view vehicles.
+    - Can update the stock of the vehicles.
+    - Can approve or reject sales order.
+
+- Sales Manager:
+----------------
+    - Can view all the vehicles.
+    - Post sales quotation for a vehicle and wait for approval/ reject. Initial state is pending.
+
+=============================================================================================================
+
+JSON files:
+------------
+- users.json: id, Name, Department[Admin, Inventory, Sales], MailID, Password, Profile picture, Phone number
+- vehicles.json: id, name, engine, power, weight, price, category[Scooter, Bike, E-Scooter, Auto, Moped], image, stock
+- sales.json: id, status[Approval, Pending, Rejected], customer/company_name, empid, order_quantity, date_of_purchase, vehicle_id
+
+=============================================================================================================
+
+- CONDITIONAL UI PART:-
+-----------------------
+- Admin
+---------
+- Navbar
+--------
+    - Left button for side menu (expand and contract)
+    - Employee tab: To perform CRUD operations on employees (Inventory and Sales Person)
+    - Vehicle tab: To just view all vehicles.
+    - Search button: TO search vehicle or employee.
+    - Profile tab: Has submenu of Details and Logout
+- Left Side menu
+-----------------
+    - Vehicle menu: Submenu with 
+    -----------------------------
+        - Add: View all vehicles and should have Add button at right bottom corner. Should be able to add any details of vehicle, 
+        - Update: To update any details of vehicles, 
+        - Remove: To remove a vehicle completely, and 
+        - View: To just view all details of the vehicle.
+
+    - Stock menu: Submenu with
+    --------------------------
+        - Update Stock of any vehicle.
+        - View vehicles with low stock.
+
+    - Sales menu: Submenu with
+    --------------------------
+        - Add: a sales post
+        - Approve or reject any sales order.
+
+    - Reports menu: Submenu with
+    -----------------------------
+        - Inventory
+        - Financial
+        - Custom
+
+    - Other details:
+    ----------------
+        - Inventory Value, News-Letters, etc....
+
+------------------------------------------------------------------------------------------------------------
+
+- Inventory Manager:
+--------------------
+- Navbar
+--------
+    - Left button for side menu (expand and contract)
+    - Vehicle tab: To just view all vehicles.
+    - Search button: TO search any vehicle.
+    - Profile tab: Has submenu of Details and Logout
+
+- Left Side menu
+-----------------
+    - Vehicle menu: Submenu with 
+    -----------------------------
+        - View: To just view all details of the vehicle.
+
+    - Stock menu: Submenu with
+    --------------------------
+        - Update Stock of any vehicle.
+        - View vehicles with low stock.
+
+    - Sales menu: Submenu with
+    --------------------------
+        - Approve or reject any sales order.
+
+    - Reports menu: Submenu with
+    -----------------------------
+        - Inventory
+        - Financial
+        - Custom
+
+    - Other details:
+    ----------------
+        - Inventory Value, News-Letters, etc....
+
+------------------------------------------------------------------------------------------------------------
+- Sales Manager:
+--------------------
+- Navbar
+--------
+    - Left button for side menu (expand and contract)
+    - Vehicle tab: To just view all vehicles.
+    - Search button: TO search any vehicle.
+    - Profile tab: Has submenu of Details and Logout
+- Left Side menu
+-----------------
+    - Vehicle menu: Submenu with 
+    -----------------------------
+        - View: To just view all details of the vehicle.
+
+    - Sales menu: Submenu with
+    --------------------------
+        - Place quotation
+
+    - Reports menu: Submenu with
+    -----------------------------
+        - Sales
+        - Financial
+        - Custom
+
+    - Other details:
+    ----------------
+        - Inventory Value, News-Letters, etc....
+
+=============================================================================================================
+
+- GENERAL UI PART:-
+-----------------------
+- Header:
+----------
+    - To have TVS MOTOR INVENTORY AND SALES
+    - To have TVS Motor company on left.
+    - Add relevant stylings.
+
+- Main Area:
+-------------
+    - Main area with New Arrivals as a carousel.
+    - Some Charts(4 to 6)
+    - Some Vehicle details
+    - Some miscellaneous facts.
+
+- Footer:
+-----------
+    - Some logo placements
+    - Details and contact, helpline, etc...
+    - Add relevant stylings.
+
+- Navbar and Sidebar conditionally rendered as mentioned above
+---------------------------------------------------------------
+
+Charts:
+--------
+- Total vehicles by category graph
+- Total sales by each vehicle over period of time graph. (weekly, month or year)
+- Top 5 critical low stock vehicle graph.
+- Selling price of each vehicle v/s cost price graph.
+- Percentage share of vehicles sold.
+
+=============================================================================================================
+
+Project Structure:
+------------------
+
+src/
+├── components/
+    ├── auth/
+        ├── Login.js
+        ├── UserProfileDetails.js
+        ├── Logout.js
+    ├── layout/
+        ├── Header.js
+        ├── NavSidebar.js
+        ├── Footer.js
+    ├── vehicle/
+        ├── VehicleList.js
+        ├── VehicleForm.js
+        ├── VehicleDetails.js
+        ├── StockUpdateForm.js
+    ├── sales/
+        ├── SalesList.js
+        ├── SalesForm.js
+        ├── SalesApproval.js
+    ├── employee/
+        ├── EmployeeList.js
+        ├── EmployeeForm.js
+    ├── charts/
+        ├── SalesByCategoryChart.js
+        ├── StockLevelChart.js
+        ├── TopSellingVehiclesChart.js
+    ├── common/
+	├── Home.js
+        ├── SearchBar.js
+
+=============================================================================================================

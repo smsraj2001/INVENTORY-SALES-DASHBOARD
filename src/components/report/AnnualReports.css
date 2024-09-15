@@ -1,0 +1,11 @@
+/* Center align dropdown menus */
+.text-center .dropdown-toggle {
+    display: inline-block;
+  }
+  
+  /* Add padding to report items */
+  .report-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  

@@ -1,0 +1,528 @@
+{
+  "sales": [
+    {
+      "id": "1",
+      "status": "Approved",
+      "customer_company_name": "ABC Motors",
+      "empid": 16513,
+      "order_quantity": 5,
+      "date_of_purchase": "2024-08-25",
+      "vehicle_id": 1
+    },
+    {
+      "id": "2",
+      "status": "Approved",
+      "customer_company_name": "XYZ Enterprises",
+      "empid": 16514,
+      "order_quantity": 2,
+      "date_of_purchase": "2024-08-30",
+      "vehicle_id": 2
+    },
+    {
+      "id": "3",
+      "status": "Approved",
+      "customer_company_name": "Global Automobiles",
+      "empid": 16515,
+      "order_quantity": 3,
+      "date_of_purchase": "2024-09-01",
+      "vehicle_id": 3
+    },
+    {
+      "id": "4",
+      "status": "Approved",
+      "customer_company_name": "Speed Motors",
+      "empid": 16516,
+      "order_quantity": 8,
+      "date_of_purchase": "2024-09-02",
+      "vehicle_id": 4
+    },
+    {
+      "id": "5",
+      "status": "Approved",
+      "customer_company_name": "Metro Bikes",
+      "empid": 16514,
+      "order_quantity": 1,
+      "date_of_purchase": "2024-09-05",
+      "vehicle_id": 5
+    },
+    {
+      "id": "6",
+      "status": "Approved",
+      "customer_company_name": "Urban Rides",
+      "empid": 16515,
+      "order_quantity": 6,
+      "date_of_purchase": "2024-09-03",
+      "vehicle_id": 6
+    },
+    {
+      "id": "7",
+      "status": "Approved",
+      "customer_company_name": "City Scooters",
+      "empid": 16516,
+      "order_quantity": 4,
+      "date_of_purchase": "2024-08-20",
+      "vehicle_id": 7
+    },
+    {
+      "id": "8",
+      "status": "Approved",
+      "customer_company_name": "Racer Wheels",
+      "empid": 16513,
+      "order_quantity": 7,
+      "date_of_purchase": "2024-08-22",
+      "vehicle_id": 8
+    },
+    {
+      "id": "10",
+      "status": "Approved",
+      "customer_company_name": "Quick Ride",
+      "empid": 16515,
+      "order_quantity": 9,
+      "date_of_purchase": "2024-08-28",
+      "vehicle_id": 10
+    },
+    {
+      "id": "12",
+      "status": "Approved",
+      "customer_company_name": "Fast Wheels Ltd.",
+      "empid": 16516,
+      "order_quantity": 5,
+      "date_of_purchase": "2024-08-27",
+      "vehicle_id": 12
+    },
+    {
+      "id": "12ba",
+      "status": "Approved",
+      "customer_company_name": "ABC",
+      "empid": "16516",
+      "order_quantity": "45",
+      "date_of_purchase": "2024-09-10",
+      "vehicle_id": "12"
+    },
+    {
+      "id": "4d19",
+      "status": "Approved",
+      "customer_company_name": "ABC",
+      "empid": "16516",
+      "order_quantity": "12",
+      "date_of_purchase": "2024-09-13",
+      "vehicle_id": "2"
+    },
+    {
+      "id": "5629",
+      "status": "Approved",
+      "customer_company_name": "TVS",
+      "empid": "16516",
+      "order_quantity": "5",
+      "date_of_purchase": "2024-09-16",
+      "vehicle_id": "2"
+    },
+    {
+      "id": "b140",
+      "status": "Approved",
+      "customer_company_name": "TVS",
+      "empid": "16516",
+      "order_quantity": "5",
+      "date_of_purchase": "2024-09-16",
+      "vehicle_id": "1"
+    },
+    {
+      "id": "9e6e",
+      "status": "Approved",
+      "customer_company_name": "TVS",
+      "empid": "16516",
+      "order_quantity": "5",
+      "date_of_purchase": "2024-09-17",
+      "vehicle_id": "2"
+    },
+    {
+      "id": "796f",
+      "status": "Approved",
+      "customer_company_name": "dsdsdsdgvs",
+      "empid": "16511",
+      "order_quantity": "10",
+      "date_of_purchase": "2024-09-18",
+      "vehicle_id": "3"
+    },
+    {
+      "id": "04e4",
+      "status": "Approved",
+      "customer_company_name": "MOTORS",
+      "empid": "16515",
+      "order_quantity": "99",
+      "date_of_purchase": "2024-09-18",
+      "vehicle_id": "5"
+    },
+    {
+      "id": "551c",
+      "status": "Rejected",
+      "customer_company_name": "reg",
+      "empid": "16515",
+      "order_quantity": "23",
+      "date_of_purchase": "2024-09-29",
+      "vehicle_id": "5"
+    },
+    {
+      "id": "df81",
+      "status": "Approved",
+      "customer_company_name": "ABC Dealers",
+      "empid": "16515",
+      "order_quantity": "19",
+      "date_of_purchase": "2024-09-25",
+      "vehicle_id": "13"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "1",
+      "name": "TVS Apache",
+      "engine": "312.2 cc",
+      "power": "21.4 kW @ 8500 rpm",
+      "weight": "174 kg",
+      "price": "₹2,49,500",
+      "cost_price": "₹2,00,000",
+      "category": "Motorcycles",
+      "type": "2W",
+      "image": "/Pictures/apache.jpg",
+      "stock": "100"
+    },
+    {
+      "id": "2",
+      "name": "TVS Jupiter",
+      "engine": "124.76 cc",
+      "power": "6 kW @ 6500 rpm",
+      "weight": "108 kg",
+      "price": "₹79,299",
+      "cost_price": "₹65,000",
+      "category": "Scooters",
+      "type": "2W",
+      "image": "/Pictures/jupiter.jpg",
+      "stock": 283
+    },
+    {
+      "id": "3",
+      "name": "TVS NTorq",
+      "engine": "124.8 cc",
+      "power": "7.5 kW @ 7000 rpm",
+      "weight": "110 kg",
+      "price": "₹89,641",
+      "cost_price": "₹72,000",
+      "category": "Scooters",
+      "type": "2W",
+      "image": "/Pictures/ntorq.jpg",
+      "stock": "75"
+    },
+    {
+      "id": "4",
+      "name": "TVS Raider",
+      "engine": "124.8 cc",
+      "power": "8.37 kW @ 7500 rpm",
+      "weight": "123 kg",
+      "price": "₹94,000",
+      "cost_price": "₹80,000",
+      "category": "Motorcycles",
+      "type": "2W",
+      "image": "/Pictures/raider.jpg",
+      "stock": "109"
+    },
+    {
+      "id": "5",
+      "name": "TVS IQube",
+      "range": "150 km",
+      "batteryCapacity": "4h 06m",
+      "topSpeed": "82 km/h",
+      "price": "₹84,999",
+      "cost_price": "₹70,000",
+      "category": "Electric",
+      "type": "2W Electric",
+      "image": "/Pictures/iqube.jpg",
+      "stock": "100"
+    },
+    {
+      "id": "6",
+      "name": "TVS X",
+      "range": "140 km",
+      "batteryCapacity": "3h 40m",
+      "topSpeed": "105 km/h",
+      "price": "₹2,49,000",
+      "cost_price": "₹2,00,000",
+      "category": "Electric",
+      "type": "2W Electric",
+      "image": "/Pictures/x.jpg",
+      "stock": "120"
+    },
+    {
+      "id": "7",
+      "name": "TVS King Deluxe",
+      "engine": "200 cc",
+      "power": "6.7 kW @ 5500 rpm",
+      "topSpeed": "82 km/h",
+      "price": "₹1,74,999",
+      "cost_price": "₹1,40,000",
+      "category": "Three Wheelers",
+      "type": "3W",
+      "image": "/Pictures/auto.jpg",
+      "stock": "100"
+    },
+    {
+      "id": "8",
+      "name": "TVS King Cargo",
+      "engine": "200 cc",
+      "power": "7.0 kW @ 5500 rpm",
+      "topSpeed": "85 km/h",
+      "price": "₹1,80,000",
+      "cost_price": "₹1,45,000",
+      "category": "Three Wheelers",
+      "type": "3W",
+      "image": "/Pictures/auto.jpg",
+      "stock": "70"
+    },
+    {
+      "id": "10",
+      "name": "TVS Jupiter New",
+      "engine": "113.3 cc",
+      "power": "5.9 kW @ 6500 rpm",
+      "weight": "160 kg",
+      "price": "₹73,700",
+      "cost_price": "₹60,000",
+      "category": "Scooters",
+      "type": "2W",
+      "image": "/Pictures/jupiter110.jpg",
+      "stock": "100"
+    },
+    {
+      "id": "11",
+      "name": "TVS Zest",
+      "engine": "109.7 cc",
+      "power": "5.75 kW @ 7500 rpm",
+      "weight": "103 kg",
+      "price": "₹74,476",
+      "cost_price": "₹62,000",
+      "category": "Scooters",
+      "type": "2W",
+      "image": "/Pictures/zest.jpg",
+      "stock": 277
+    },
+    {
+      "id": "12",
+      "name": "TVS Scooty Pep+",
+      "engine": "87.8 cc",
+      "power": "4.0 kW @ 6500 rpm",
+      "weight": "93 kg",
+      "price": "₹65,514",
+      "cost_price": "₹55,000",
+      "category": "Scooters",
+      "type": "2W",
+      "image": "/Pictures/scootypep.jpg",
+      "stock": "300"
+    },
+    {
+      "id": "13",
+      "name": "TVS XL100",
+      "engine": "99.7 cc",
+      "power": "3.2 kW @ 6000 rpm",
+      "weight": "88 kg",
+      "price": "₹44,999",
+      "cost_price": "₹35,000",
+      "category": "Mopeds",
+      "type": "2W",
+      "image": "/Pictures/xl.jpg",
+      "stock": 84
+    },
+    {
+      "id": "14",
+      "name": "TVS Ronin",
+      "engine": "225.9 cc",
+      "power": "15.01 kW(20.4 PS) @7750 rpm",
+      "weight": "160 kg",
+      "price": "₹ 1,49,200",
+      "cost_price": "₹1,10,000",
+      "category": "Motorcycles",
+      "type": "2W",
+      "image": "https://www.tvsmotor.com/-/media/Feature/Vehicles/vehicles/TVS-Ronin/Our-Products-page---675x357-px-11-May.jpg?la=en&h=357&w=675&hash=3C0A6A38BAF43FD6C6C7970BE5B89871",
+      "stock": 100
+    },
+    {
+      "id": "15",
+      "name": "TVS Star City",
+      "engine": "109.7 cc",
+      "power": "6.03 kW @ 7350 rpm",
+      "weight": "116 kg",
+      "price": "₹ 95,000",
+      "cost_price": "₹ 75,000",
+      "category": "Motorcycles",
+      "type": "2W",
+      "image": "https://www.tvsmotor.com/-/media/Feature/25-10-22/Products/TVS_StarCity_2021.jpg?la=en&h=357&w=675&hash=FA006E38D145F8D15BB4CAE9640D1C1B",
+      "stock": 100
+    }
+  ],
+  "users": [
+    {
+      "id": "16511",
+      "name": "Kamala Kannan",
+      "department": "Admin",
+      "mail_id": "Kamala.Kannan@tvs.com",
+      "password": "admin123",
+      "profile_picture": "",
+      "phone_number": "9876543210",
+      "gender": "Male"
+    },
+    {
+      "id": "16512",
+      "name": "Satwika",
+      "department": "Admin",
+      "mail_id": "Satwika@tvs.com",
+      "password": "admin456",
+      "profile_picture": "",
+      "phone_number": "8765432109",
+      "gender": "Female"
+    },
+    {
+      "id": "16513",
+      "name": "Vikram Singh",
+      "department": "Sales",
+      "mail_id": "vikram.singh@tvs.com",
+      "password": "sales123",
+      "profile_picture": "",
+      "phone_number": "7654321098",
+      "gender": "Male"
+    },
+    {
+      "id": "16514",
+      "name": "Parthiban C",
+      "department": "Sales",
+      "mail_id": "Parthiban.c@tvs.com",
+      "password": "sales456",
+      "profile_picture": "",
+      "phone_number": "6543210987",
+      "gender": "Male"
+    },
+    {
+      "id": "16515",
+      "name": "Samyucktha",
+      "department": "Sales",
+      "mail_id": "Samyucktha@tvs.com",
+      "password": "sales789",
+      "profile_picture": "",
+      "phone_number": "5432109876",
+      "gender": "Female"
+    },
+    {
+      "id": "16516",
+      "name": "Neha Verma",
+      "department": "Sales",
+      "mail_id": "neha.verma@tvs.com",
+      "password": "sales321",
+      "profile_picture": "",
+      "phone_number": "4321098765",
+      "gender": "Female"
+    },
+    {
+      "id": "16517",
+      "name": "Nikhil Reddy",
+      "department": "Inventory",
+      "mail_id": "Nikhil.Reddy@tvs.com",
+      "password": "inventory123",
+      "profile_picture": "",
+      "phone_number": "3210987654",
+      "gender": "Male"
+    },
+    {
+      "id": "16519",
+      "name": "S M Sutharsan Raj",
+      "department": "Inventory",
+      "mail_id": "S.Sutharsanraj@tvs.com",
+      "password": "inventory789",
+      "profile_picture": "",
+      "phone_number": "1098765432",
+      "gender": "Male"
+    },
+    {
+      "id": "16520",
+      "name": "Swati Desai",
+      "department": "Inventory",
+      "mail_id": "swati.desai@tvs.com",
+      "password": "inventory321",
+      "profile_picture": "",
+      "phone_number": "0987654321",
+      "gender": "Female"
+    },
+    {
+      "id": "16522",
+      "name": "Jhanavhi S M",
+      "gender": "Female",
+      "department": "Inventory",
+      "mail_id": "Jhanavhi@tvs.com",
+      "password": "meow",
+      "phone_number": "7259907891"
+    },
+    {
+      "id": "16535",
+      "name": "ABC",
+      "gender": "Female",
+      "department": "Sales",
+      "mail_id": "regerge@fg",
+      "password": "sales321",
+      "phone_number": "01234567890"
+    },
+    {
+      "id": "16518",
+      "name": "Subramanian S",
+      "gender": "Male",
+      "department": "Inventory",
+      "mail_id": "Subbu@tvs.com",
+      "password": "mybestfriend",
+      "phone_number": "1098765432"
+    }
+  ],
+  "updates": [
+    {
+      "id": "1",
+      "title": "TVS Launches New Scooter",
+      "description": "TVS has launched a new scooter packed with cutting-edge features, including a fully digital instrument cluster, Bluetooth connectivity, and enhanced fuel efficiency.",
+      "imageUrl": "https://imgd.aeplcdn.com/1056x594/n/cw/ec/185315/jupiter-right-side-view-16.jpeg?isig=0&q=80&wm=3"
+    },
+    {
+      "id": "2",
+      "title": "TVS Wins Automotive Award",
+      "description": "TVS Motors has been awarded the 'Automotive Brand of the Year' for its continuous innovations in the two-wheeler segment.",
+      "imageUrl": "https://pbs.twimg.com/media/GIuXqKJacAAT0jY.jpg:large"
+    },
+    {
+      "id": "3",
+      "title": "TVS Expands Global Reach",
+      "description": "TVS Motors is expanding its footprint into new global markets, including Europe and Africa.",
+      "imageUrl": "https://www.tvsmotor.com/ar-23-24/images/map.webp"
+    },
+    {
+      "id": "4",
+      "title": "TVS New Electric Bike",
+      "description": "TVS introduces its latest electric bike model, offering top-notch performance with a long-lasting battery and fast charging capability.",
+      "imageUrl": "https://www.tvsmotor.com/electric-vehicle/tvs-iqube/-/media/Vehicles/Feature/VehicleFeatures/ProductFeatures/Pricing/Slider-Images-Iqube/celebrate-pricing.webp?la=en&hash=791F5C65FF073D73612E4FAB6FF0D4D7"
+    },
+    {
+      "id": "5",
+      "title": "TVS Motors Sales Report",
+      "description": "TVS Motors has reported a record-breaking increase in sales for 2023.",
+      "imageUrl": "https://www.rushlane.com/wp-content/uploads/2024/02/tvs-motor-sales-jan-2024.jpg"
+    },
+    {
+      "id": "6",
+      "title": "TVS New Accessories",
+      "description": "TVS has launched a new line of accessories designed to enhance the biking experience.",
+      "imageUrl": "https://www.indiandrives.com/wp-content/uploads/2021/10/tvs-xl100-genuine-accessories-wi.jpg"
+    },
+    {
+      "id": "7",
+      "title": "TVS Wins Green Award",
+      "description": "TVS has been honored with the Green Business Award for its sustainable business practices.",
+      "imageUrl": "https://greentechfestival.com/wp-content/uploads/2022/06/Awards_head-1-1-scaled.jpg"
+    },
+    {
+      "id": "8",
+      "title": "TVS Launches in New Markets",
+      "description": "TVS Motors is entering new international markets in 2023 and there is no stopping after acquiring Norton Motors in the UK.",
+      "imageUrl": "https://www.tvsmotor.com/-/media/28DECBlogs/NewJupiter.jpg"
+    }
+  ]
+}

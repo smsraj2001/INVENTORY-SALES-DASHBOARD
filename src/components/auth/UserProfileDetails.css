@@ -1,0 +1,14 @@
+.user-details {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+}
+
+.table th {
+    width: 30%; 
+    color: #495057; 
+}
+
+.table td {
+    color: #343a40; 
+}
+

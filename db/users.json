@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": 16511,
+      "name": "Kamala Kannan",
+      "department": "Admin",
+      "mail_id": "Kamala.Kannan@tvs.com",
+      "password": "admin123",
+      "profile_picture": ".jpg",
+      "phone_number": "9876543210",
+      "gender": "male"
+    },
+    {
+      "id": 16512,
+      "name": "Satwika",
+      "department": "Admin",
+      "mail_id": "Satwika@tvs.com",
+      "password": "admin456",
+      "profile_picture": ".jpg",
+      "phone_number": "8765432109",
+      "gender": "female"
+    },
+    {
+      "id": 16513,
+      "name": "Vikram Singh",
+      "department": "Sales",
+      "mail_id": "vikram.singh@tvs.com",
+      "password": "sales123",
+      "profile_picture": ".jpg",
+      "phone_number": "7654321098",
+      "gender": "male"
+    },
+    {
+      "id": 16514,
+      "name": "Parthiban C",
+      "department": "Sales",
+      "mail_id": "Parthiban.c@tvs.com",
+      "password": "sales456",
+      "profile_picture": ".jpg",
+      "phone_number": "6543210987",
+      "gender": "male"
+    },
+    {
+      "id": 16515,
+      "name": "Samyucktha",
+      "department": "Sales",
+      "mail_id": "Samyucktha@tvs.com",
+      "password": "sales789",
+      "profile_picture": ".jpg",
+      "phone_number": "5432109876",
+      "gender": "female"
+    },
+    {
+      "id": 16516,
+      "name": "Neha Verma",
+      "department": "Sales",
+      "mail_id": "neha.verma@tvs.com",
+      "password": "sales321",
+      "profile_picture": ".jpg",
+      "phone_number": "4321098765",
+      "gender": "female"
+    },
+    {
+      "id": 16517,
+      "name": "Nikhil Reddy",
+      "department": "Inventory",
+      "mail_id": "Nikhil.Reddy@tvs.com",
+      "password": "inventory123",
+      "profile_picture": ".jpg",
+      "phone_number": "3210987654",
+      "gender": "male"
+    },
+    {
+      "id": 16518,
+      "name": "Pooja Reddy",
+      "department": "Inventory",
+      "mail_id": "pooja.reddy@tvs.com",
+      "password": "inventory456",
+      "profile_picture": ".jpg",
+      "phone_number": "2109876543",
+      "gender": "female"
+    },
+    {
+      "id": 16519,
+      "name": "S M Sutharsan Raj",
+      "department": "Inventory",
+      "mail_id": "S.Sutharsanraj@tvs.com",
+      "password": "inventory789",
+      "profile_picture": ".jpg",
+      "phone_number": "1098765432",
+      "gender": "male"
+    },
+    {
+      "id": 16520,
+      "name": "Swati Desai",
+      "department": "Inventory",
+      "mail_id": "swati.desai@tvs.com",
+      "password": "inventory321",
+      "profile_picture": ".jpg",
+      "phone_number": "0987654321",
+      "gender": "female"
+    }
+  ]
+}
